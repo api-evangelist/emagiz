@@ -1,0 +1,26 @@
+generated: '2026-10-20'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://emagiz.com/pricing/
+sources:
+- https://emagiz.com/pricing/
+name: eMagiz pricing
+audience: business-product
+pricing_basis: per-seat
+plans:
+- name: Managed Starter
+  price_text: € 4.800 per year
+  price: 4.8
+  description: perfect for small integrations
+- name: Managed Advanced
+  price_text: € 12.000 per year
+  price: 12.0
+  description: perfect for medium integrations
+- name: Ultimate
+  price_text: € 20.000 per year
+  price: 20.0
+  description: iPaas acces for end users to build integrations
+- name: Enterprise
+  price_text: Contact us
+  description: tailored iPaaS acces for large business
+docs: https://emagiz.com/pricing/

@@ -1,23 +1,69 @@
 aid: emagiz
+
 name: eMagiz
-description: 'eMagiz is a company surfaced via the API Evangelist harvest backlog (source: g2-catalog)
-  and added to the network as a stub for full-pipeline profiling.'
+
+image: https://emagiz.com/wp-content/uploads/2025/07/emagiz-ipaas-landscape-management-mob.webp
+
+description: 'eMagiz provides an integration Platform as a Service (iPaaS) enabling lifecycle management, integration landscape management, messaging, API gateway, event streaming, and state generation. The Dutch‑based company offers a unified platform for connecting applications, handling asynchronous message exchange, and supporting community resources, partners, and demos. It targets enterprises seeking seamless integration and API management across cloud and on‑premise environments.'
+
 url: https://raw.githubusercontent.com/api-evangelist/emagiz/refs/heads/main/apis.yml
+
 x-type: company
+
 x-source: harvest:g2-catalog
-x-tier: stub
-x-tier-reason: harvest
+
+x-tier: profiled
+x-tier-reason: enrichment pass 2026-10-20 (modular-v1; was harvest)
+
 specificationVersion: '0.20'
+
 created: '2026-10-20'
+
 modified: '2026-10-20'
+
 tags:
-- Company
-apis: []
+- iPaaS
+- Integration
+- Messaging
+- API-Gateway
+- Event-Streaming
+
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+
 common:
+- type: Plans
+  url: plans/emagiz-plans-pricing.yml
+- type: LLMsTxt
+  url: llms/emagiz-llms.txt
+- type: WellKnown
+  url: well-known/emagiz-well-known.yml
+- type: Hosts
+  url: hosts/emagiz-hosts.yml
+- type: Vendors
+  url: vendors/emagiz-vendors.yml
+- type: Documentation
+  url: https://docs.emagiz.com/
+- type: DomainSecurity
+  url: security/emagiz-domain-security.yml
 - type: Website
   url: https://emagiz.com/
+- type: Pricing
+  url: https://emagiz.com/pricing/
+- type: PrivacyPolicy
+  url: https://emagiz.com/privacy-policy/
+- type: Support
+  url: https://emagiz.com/contact/
+- type: GettingStarted
+  url: https://emagiz.com/demo/
+
+apis: []
+x-enrichment:
+  date: '2026-10-20'
+  status: enriched
+  artifacts_added: 22
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

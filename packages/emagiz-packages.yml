@@ -1,0 +1,36 @@
+generated: '2026-10-20'
+method: none
+source: https://registry.npmjs.org/-/v1/search?text=emagiz&size=5
+packages: []
+rejected:
+- name: emagiz-widget-drawing-components
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-additional-buttons
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-widget-utilities
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-stack-layout
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-portainer-api-client
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-architecture-layout
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-widget-layout
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-tag-filter
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-dropdown-menu
+  registry: npm
+  reason: 'official: false as written'
+- name: emagiz-deployment-steps
+  registry: npm
+  reason: 'official: false as written'
+note: 'no first-party package: every candidate a model listed was unowned (harvest-packages.py --audit)'
